@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/src/main/java/com/example/bootconfig/BootConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-config/src/test/java/com/example/bootconfig/BootConfigApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-boot-tut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weblogic-micro.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-config/src/main/java/com/example/bootconfig/BootConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -52,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boot-config/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -204,7 +191,7 @@
       <updated>1560861384176</updated>
       <workItem from="1560861385413" duration="972000" />
       <workItem from="1560919168359" duration="114000" />
-      <workItem from="1560919287329" duration="5528000" />
+      <workItem from="1560919287329" duration="5745000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -220,11 +207,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560862301121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="boot tut end">
+      <created>1560948086796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560948086796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6614000" />
+    <option name="totallyTimeSpent" value="6831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -265,7 +259,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="boot tut" />
-    <option name="LAST_COMMIT_MESSAGE" value="boot tut" />
+    <MESSAGE value="boot tut end" />
+    <option name="LAST_COMMIT_MESSAGE" value="boot tut end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo_jar/src/main/resources/application.properties">
@@ -275,13 +270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -304,6 +292,13 @@
             <element signature="e#1833#1834#0" expanded="true" />
             <element signature="e#1881#1882#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
