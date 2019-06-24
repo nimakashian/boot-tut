@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/controller/ToDoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/domain/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/domain/ToDoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/repository/CommonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/repository/ToDoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/validation/ToDoValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/validation/ToDoValidationErrorBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/controller/ToDoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/controller/ToDoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/domain/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-inmemory/src/main/java/com/boot/todoinmemory/todo/domain/ToDo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/boot-config/src/main/java/com/example/bootconfig/BootConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
+            <state relative-caret-position="798">
               <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,10 +153,37 @@
               <item name="todoinmemory" type="462c0819:PsiDirectoryNode" />
               <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-inmemory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="todoinmemory" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-inmemory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="todoinmemory" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -170,7 +191,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/FaraFan/Source/change_address_import/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -201,7 +222,8 @@
       <workItem from="1560919168359" duration="114000" />
       <workItem from="1560919287329" duration="5745000" />
       <workItem from="1561188697908" duration="643000" />
-      <workItem from="1561192133313" duration="592000" />
+      <workItem from="1561192133313" duration="1541000" />
+      <workItem from="1561272250492" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -224,17 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560948086796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chapter 4 &#10;in memory mvc boot">
+      <created>1561206708691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561206708691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8066000" />
+    <option name="totallyTimeSpent" value="9614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26606685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,7 +298,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="boot tut" />
     <MESSAGE value="boot tut end" />
-    <option name="LAST_COMMIT_MESSAGE" value="boot tut end" />
+    <MESSAGE value="chapter 4 &#10;in memory mvc boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 4 &#10;in memory mvc boot" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo_jar/src/main/resources/application.properties">
@@ -285,7 +314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boot-config/src/main/java/com/example/bootconfig/BootConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="798">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />

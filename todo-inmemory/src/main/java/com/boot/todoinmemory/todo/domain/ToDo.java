@@ -29,7 +29,4 @@ public class ToDo {
         this();
         this.description = description;
     }
-
-
-
 }
