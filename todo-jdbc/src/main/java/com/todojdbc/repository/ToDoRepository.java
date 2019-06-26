@@ -2,6 +2,7 @@ package com.todojdbc.repository;
 
 
 import com.todojdbc.domain.ToDo;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -9,10 +10,7 @@ import org.springframework.stereotype.Repository;
 import javax.annotation.ManagedBean;
 import java.sql.ResultSet;
 import java.time.LocalDateTime;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Repository
@@ -42,26 +40,56 @@ public class ToDoRepository implements CommonRepository<ToDo> {
 
     @Override
     public ToDo save(ToDo domain) {
-        return null;
+        ToDo result=findById(domain.getId());
+        if(result!=null){
+            result.setDescription(domain.getDescription());
+            result.setCompleted(domain.isCompleted());
+            result.setModified(LocalDateTime.now());
+            return upsert(result,SQL_UPDATE);
+        }
+        return upsert(domain,SQL_INSERT);
+    }
+
+    private ToDo upsert(final ToDo toDo, final String sql) {
+        Map<String,Object> namedParameters=new HashMap<>();
+
+        namedParameters.put("id",toDo.getId());
+        namedParameters.put("description",toDo.getDescription());
+        namedParameters.put("created",java.sql.Timestamp.valueOf(toDo.getCreated()));
+        namedParameters.put("modified",java.sql.Timestamp.valueOf(toDo.getModified()));
+        namedParameters.put("completed",toDo.isCompleted());
+
+        this.jdbcTemplate.update(sql,namedParameters);
+
+        return findById(toDo.getId());
     }
 
     @Override
     public Iterable<ToDo> save(Collection<ToDo> domains) {
-        return null;
+        domains.forEach(this::save);
+        return findAll();
     }
 
     @Override
-    public void delete(ToDo domain) {
+    public void delete(final ToDo domain) {
+        Map<String,Object> namedParameteres= Collections.singletonMap("id",domain.getId());
+        this.jdbcTemplate.update(SQL_DELETE,namedParameteres);
 
     }
 
     @Override
     public ToDo findById(String id) {
-        return null;
+
+        try{
+            Map<String,Object> nameParameteres=Collections.singletonMap("id",id);
+            return this.jdbcTemplate.queryForObject(SQL_QUERY_FIND_BY_ID,nameParameteres,toDoRowMapper);
+        }catch (EmptyResultDataAccessException ex){
+            return null;
+        }
     }
 
     @Override
     public Iterable<ToDo> findAll() {
-        return null;
+        return this.jdbcTemplate.query(SQL_QUERY_FIND_ALL,toDoRowMapper);
     }
 }
