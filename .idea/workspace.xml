@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/config/ToDoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/controller/ToDoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/domain/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/domain/ToDoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/com/example/mongo/repository/ToDoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/validation/ToDoValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/src/main/java/validation/ToDoValidationErrorBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo-jdbc/src/main/java/com/todojdbc/validation/ToDoValidationError.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -124,62 +117,6 @@
             <path>
               <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
               <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weblogic-micro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weblogic-micro" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,7 +174,7 @@
       <workItem from="1562158211993" duration="527000" />
       <workItem from="1562672384202" duration="1701000" />
       <workItem from="1562732230478" duration="11000" />
-      <workItem from="1562735100212" duration="6930000" />
+      <workItem from="1562735100212" duration="9105000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -323,14 +260,22 @@
       <option name="project" value="LOCAL" />
       <updated>1562751914962</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chapter 5 mongo">
+      <created>1562758212733</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562758212733</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23431000" />
+    <option name="totallyTimeSpent" value="25606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24164525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,7 +319,8 @@
     <MESSAGE value="chapter 5 153" />
     <MESSAGE value="chapter 5 jpa" />
     <MESSAGE value="chapter 5 rest-data" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 5 rest-data" />
+    <MESSAGE value="chapter 5 mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 5 mongo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo_jar/src/main/resources/application.properties">
@@ -433,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo-jdbc/src/main/java/com/todojdbc/validation/ToDoValidationError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
