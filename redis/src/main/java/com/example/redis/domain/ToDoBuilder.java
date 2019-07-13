@@ -1,4 +1,4 @@
-package com.example.mongo.domain;
+package com.example.redis.domain;
 
 public class ToDoBuilder {
 

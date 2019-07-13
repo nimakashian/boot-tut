@@ -1,4 +1,4 @@
-package com.example.mongo.config;
+package com.example.redis.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;

@@ -1,8 +1,8 @@
-package com.example.mongo.controller;
+package com.example.redis.controller;
 
-import com.example.mongo.domain.ToDo;
-import com.example.mongo.domain.ToDoBuilder;
-import com.example.mongo.repository.ToDoRepository;
+import com.example.redis.domain.ToDo;
+import com.example.redis.domain.ToDoBuilder;
+import com.example.redis.repository.ToDoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
