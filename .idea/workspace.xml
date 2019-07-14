@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reactor/src/main/java/com/example/reactor/config/FluxExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor/src/main/java/com/example/reactor/config/MonoExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactor/src/main/java/com/example/reactor/domain/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/ToDoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/config/ToDoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/controller/ToDoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/controller/ToDoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/domain/ToDoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/domain/ToDoBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/repository/ToDoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/example/redis/repository/ToDoRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todo-jdbc/src/main/java/com/todojdbc/validation/ToDoValidationError.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="252">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -179,7 +179,8 @@
       <workItem from="1562672384202" duration="1701000" />
       <workItem from="1562732230478" duration="11000" />
       <workItem from="1562735100212" duration="9199000" />
-      <workItem from="1563009920323" duration="596000" />
+      <workItem from="1563009920323" duration="2664000" />
+      <workItem from="1563077416238" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -279,16 +280,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562762773887</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="chapter 5 redis p 182">
+      <created>1563012196203</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563012196203</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26296000" />
+    <option name="totallyTimeSpent" value="30229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24485861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24807198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todo-jdbc/src/main/java/com/todojdbc/validation/ToDoValidationError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="252">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
