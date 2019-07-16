@@ -13,7 +13,7 @@ import reactor.core.scheduler.Schedulers;
 
 import java.time.Duration;
 
-@Configuration
+//@Configuration
 public class MonoExample {
     static private Logger LOG= LoggerFactory.getLogger(MonoExample.class);
 
