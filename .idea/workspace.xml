@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/security-directory/src/main/java/com/example/directory/config/DirectorySecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-directory/src/main/java/com/example/directory/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-directory/src/main/java/com/example/directory/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-directory/src/main/java/com/example/directory/security/DirectoryUserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security-directory/src/main/resources/dsta.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +203,7 @@
       <workItem from="1563277678620" duration="922000" />
       <workItem from="1563354950245" duration="524000" />
       <workItem from="1563356063026" duration="119000" />
-      <workItem from="1563691075960" duration="1093000" />
+      <workItem from="1563691075960" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -359,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563691125547</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="chapter 8 p262">
+      <created>1563708063551</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563708063551</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33608000" />
+    <option name="totallyTimeSpent" value="33707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -442,7 +442,8 @@
     <MESSAGE value="chapter 6 p208" />
     <MESSAGE value="chapter 6 end" />
     <MESSAGE value="chapter 7 p253" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 7 p253" />
+    <MESSAGE value="chapter 8 p262" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 p262" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo_jar/src/main/resources/application.properties">

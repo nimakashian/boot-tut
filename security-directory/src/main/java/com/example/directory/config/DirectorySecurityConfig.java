@@ -14,6 +14,7 @@ public class DirectorySecurityConfig extends WebSecurityConfigurerAdapter {
     private PersonRepository personRepository;
 
     public DirectorySecurityConfig(PersonRepository personRepository) {
+
         this.personRepository = personRepository;
     }
 

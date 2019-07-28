@@ -24,6 +24,7 @@ public class Person {
     private String role = "USER";
     private boolean enabled = true;
     private LocalDate birthday;
+
     @Column(insertable = true, updatable = false)
     private LocalDateTime created;
     private LocalDateTime modified;

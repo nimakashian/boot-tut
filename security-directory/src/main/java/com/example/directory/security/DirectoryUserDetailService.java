@@ -32,6 +32,13 @@ public class DirectoryUserDetailService implements UserDetailsService {
                         .roles(person.getRole())
                         .build();
             }
+//            else{
+//                return User.withUsername("admin@example.com")
+//                        .accountLocked(!person.isEnabled())
+//                        .password("admin")
+//                        .roles(person.getRole())
+//                        .build();
+//            }
         }catch (Exception ex){
             ex.printStackTrace();
 
