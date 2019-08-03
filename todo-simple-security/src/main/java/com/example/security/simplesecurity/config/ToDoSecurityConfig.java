@@ -71,11 +71,11 @@ public class ToDoSecurityConfig extends WebSecurityConfigurerAdapter {
                                     }
                             );
                     if (responseEntity.getStatusCode() == HttpStatus.OK) {
-                        Resource<Person> resource=responseEntity.getBody();
-                        Person person=resource.getContent();
+                        Resource<Person> resource = responseEntity.getBody();
+                        Person person = resource.getContent();
 
-                        PasswordEncoder encoder= PasswordEncoderFactories.createDelegatingPasswordEncoder();
-                        String password=encoder.encode(person.getPassword());
+                        PasswordEncoder encoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
+                        String password = encoder.encode(person.getPassword());
 
                         return User
                                 .withUsername(person.getEmail())
@@ -96,17 +96,18 @@ public class ToDoSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-       http.authorizeRequests()
-               .requestMatchers(PathRequest.toStaticResources().atCommonLocations())
-               .permitAll()
-               .antMatchers("/","/api/**")
-               .hasRole("USER")
-               .and()
-               .formLogin().loginPage("/login").permitAll()
-               .and().logout()
-               .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-               .logoutSuccessUrl("login")
-               .and().httpBasic();
+        http.authorizeRequests()
+                .requestMatchers(PathRequest.toStaticResources().atCommonLocations())
+                .permitAll()
+                .antMatchers("/", "/api/**")
+                .hasRole("USER")
+                .and()
+                .formLogin().loginPage("/login").permitAll()
+                .and().logout()
+                .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
+                .logoutSuccessUrl("login")
+                .and()
+                .httpBasic();
 
     }
 }
