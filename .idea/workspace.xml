@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd2447b4-e5ce-4f2f-9940-7f6feb844269" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
       <workItem from="1563691075960" duration="1192000" />
       <workItem from="1564296381815" duration="408000" />
       <workItem from="1564577025647" duration="200000" />
-      <workItem from="1564815691663" duration="2100000" />
+      <workItem from="1564815691663" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="boot tut">
       <created>1560861548883</created>
@@ -303,15 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1564821713729</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="chapter 8 p269">
+      <created>1564832796775</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564832796775</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36415000" />
+    <option name="totallyTimeSpent" value="37118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124678664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -404,7 +408,8 @@
     <MESSAGE value="chapter 8 p262" />
     <MESSAGE value="chapter 8 p267" />
     <MESSAGE value="chapter 8 p269" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 p269" />
+    <MESSAGE value="chapter 8 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 end" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo_jar/src/main/resources/application.properties">
